@@ -1,0 +1,31 @@
+
+negative_incidents <- read.csv("~/R/data_for_public_release/negative_incidents.csv")
+class(negative_incidents)
+
+class(negative_incidents$POPULATION)
+#ni_str <- str(negative_incidents)
+#class(ni_str)
+
+#filter(negative_incidents,negative_incidents$POPULATION %in% c("github"))
+
+#select(ni) 
+
+#git_negativeinc <- filter(negative_incidents, as.numeric(negative_incidents$POPULATION.factor) %in% c(2))
+
+#as.numeric(negative_incidents$POPULATION.factor)
+#"github"))
+#View(git_negativeinc)
+#git_negativeinc
+#select(git_negativeinc,negative_incidents$POPULATION)
+
+#witness <- negative_incidents$NEGATIVE.WITNESS.ANY.RESPONSE
+#experience <- negative_incidents$NEGATIVE.EXPERIENCE.ANY.RESPONSE
+#response <- negative_incidents$NEGATIVE.RESPONSE.ANY.RESPONSE
+#conseq <- negative_incidents$NEGATIVE.CONSEQUENCES.ANY.RESPONSE
+#git_pop <- filter (negative_incidents,POPULATION %in% ("github"))
+#plot(witness,conseq,git_pop)
+#neg_woe <- as.numeric( negative_incidents$NEGATIVE.WITNESS.ANY.RESPONSE | negative_incidents$NEGATIVE.EXPERIENCE.ANY.RESPONSE)
+#neg_resoc <- as.numeric(negative_incidents$NEGATIVE.RESPONSE.ANY.RESPONSE | negative_incidents$NEGATIVE.CONSEQUENCES.ANY.RESPONSE)
+#plot.default(neg_woe,neg_resoc,type="p",col="red")
+#hist(neg_woe,neg_resoc,ylim=NULL)
+#xyplot(neg_woe,neg_resoc)
